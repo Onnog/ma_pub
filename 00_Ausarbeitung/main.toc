@@ -1,0 +1,4 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Materialien}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Halbzeuge f\IeC {\"u}r Grundlaminat}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Halbzeuge f\IeC {\"u}r Verst\IeC {\"a}rkungsfasern}{3}{subsection.1.2}

@@ -1,0 +1,26 @@
+%\begin{titlepage}
+%
+%\title{DRAFT: Lokale Verstärkungen}
+%\date{\today}
+%\author{Onno Grönheim\\ KIT, Karlsruhe Institute of Technology}
+%
+%\maketitle
+%\thispagestyle{empty}
+%\end{titlepage}
+%
+%\titlehead{Kopf der Titelei}
+%\subject{subject: Beispiel}
+%\title{Lokale Verstärkungen}
+%\subtitle{Entwurf}
+%\author{Onno Grönheim}
+%\date{\today}
+%\publishers{Betreut von Prof. Dr. Henning \\ Dipl. Ing. Stefan-Josef Stanglmaier \\ \ MSc Philipp Rosenberg}
+%%\extratitle{\centering Schmutztitel \\ goLaTeX (C) 2009 \\ ISBN 978-3865412911}
+%\uppertitleback{Obiger Titelrückentitel}
+%\lowertitleback{Für dieses Beispiel wird keine Haftung übernommen.}
+%\dedication{Dieses Beispiel widme ich\\allen LaTeX Usern}
+
+\TitlePageStyle[titlehead={},subject={Masterthesis},chair={Prof. Dr.-Ing. Frank Henning},faculty={Fakultät für Maschinenbau},date=\today,]{KIT}
+\title{DRAFT: Lokale Verstärkungen}
+\author{BSc Onno Grönheim}
+\maketitle

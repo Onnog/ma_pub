@@ -1,0 +1,89 @@
+\documentclass[11pt,oneside,a4paper]{scrartcl}
+
+\usepackage[T1]{fontenc}            % Europäische Zeichensätze aktivieren
+\usepackage[utf8x]{inputenc}        % Direkte Eingabe von Umlauten und anderen Sonderzeichen
+\usepackage[ngerman]{babel}         % Deutsche Bezeichnungen
+
+\usepackage[vario,german,margin]{fancyref}        % Erlaubt automatische Verweise  auf Abbildungen, etc. vario: "Abbildung auf der nächsten Seite" \fref benutzen
+
+\usepackage[pdftex]{graphicx}
+\usepackage{titlepage}
+%\usepackage[sf]{titlesec}
+%\usepackage{textcomp}
+%\usepackage{float}                          % Mehr Freiheit bei Positionierung
+%\usepackage{subfigure} 
+
+%\usepackage{makeidx}
+%\usepackage{helvet}0
+
+\usepackage{booktabs}
+
+\usepackage{hyperref}                % Generiert anklickbare Verweise in der PDF-Datei
+                                                         % und soll als letztes Paket aktiviert werden
+\hypersetup{colorlinks=true, linkcolor=blue}    % Links in Schwarz und ohne Box
+
+\usepackage{hypcap} % Caption vor Bild! Ist normalerweise nicht installiert
+
+\include{01_configuration}
+
+%\makeindex
+
+%=================================
+%DOKUMENT BEGINNT
+%=================================
+\begin{document}
+
+%\parindent=0pt           % Einrückung von Absätzen
+    %\sloppypar
+    %\linespread{1.2}
+    
+ \include{00_cont/Titelseite}
+ 
+ %\thispagestyle{plain}
+ 
+ 
+\tableofcontents
+ \newpage % TOC auf eigener Seite platzieren
+
+%=================================
+%Nomenklatur direkt hinter Inhalt
+%=================================
+
+
+%\phantomsection
+%\label{loa}
+%\addcontentsline{toc}{section}{Abkürzungsverzeichnis}
+%\printnomenclature[2cm]
+
+
+%=================================
+%Ab hier beginnt der Inhalt
+%=================================
+
+\include{00_cont/Einleitung}
+\include{00_cont/Materialien}
+
+
+%=================================
+%Ab hier folgt der Anhang Verzeichnisse
+%=================================
+
+%    \appendix
+%    \include{A/app}
+
+%=================================
+%Ab hier folgen die Verzeichnisse
+%=================================
+
+
+%    \addcontentsline{toc}{chapter}{Bibliography}
+%    \bibliographystyle{alpha}
+%    \bibliography{bibliography}
+
+%    \addcontentsline{toc}{section}{List of Tables}
+%    \listoftables
+%    \addcontentsline{toc}{section}{List of Figures}
+%    \listoffigures
+    %\printindex
+
+\end{document}
