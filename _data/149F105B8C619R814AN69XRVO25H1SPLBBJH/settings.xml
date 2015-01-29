@@ -1,0 +1,13 @@
+<project name="masterthesis" version="docear 1.0" ID="149F105B8C619R814AN69XRVO25H1SPLBBJH">
+<folder type="library" name="Library">
+<link type="literature_annotations" name="Literature &amp; Annotations" path="project://149F105B8C619R814AN69XRVO25H1SPLBBJH/_data/149F105B8C619R814AN69XRVO25H1SPLBBJH/default_files/literature_and_annotations.mm"/>
+<link type="file" name="Temp" path="project://149F105B8C619R814AN69XRVO25H1SPLBBJH/_data/149F105B8C619R814AN69XRVO25H1SPLBBJH/default_files/temp.mm" system="true"/>
+<link type="file" name="Trash" path="project://149F105B8C619R814AN69XRVO25H1SPLBBJH/_data/149F105B8C619R814AN69XRVO25H1SPLBBJH/default_files/trash.mm" system="true"/>
+<link type="file" name="Struktur" path="project://149F105B8C619R814AN69XRVO25H1SPLBBJH/_data/149F105B8C619R814AN69XRVO25H1SPLBBJH/default_files/Struktur.mm"/>
+</folder>
+<folder type="physical" name="My drafts" path="project://149F105B8C619R814AN69XRVO25H1SPLBBJH/_data/149F105B8C619R814AN69XRVO25H1SPLBBJH/My%20Drafts/"/>
+<folder type="literature_repository" name="Literature repository" system="true">
+<folder type="repository_path" name="default" path="file:/D:/dokumente/uni/Masterthesis//literature_repository"/>
+</folder>
+<link type="references" name="References" path="project://149F105B8C619R814AN69XRVO25H1SPLBBJH/_data/149F105B8C619R814AN69XRVO25H1SPLBBJH/default_files/masterthesis.bib" system="true"/>
+</project>
